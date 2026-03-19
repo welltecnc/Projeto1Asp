@@ -18,10 +18,23 @@ namespace Proejto1Asp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Sobre()
         {
             return View();
         }
+
+        public IActionResult Portifolio()
+        {
+            return View();
+        }
+        public IActionResult Contato()
+        {
+            return View();
+        }
+
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
